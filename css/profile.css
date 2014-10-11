@@ -1,0 +1,210 @@
+* {
+	border: 0;
+	box-sizing: border-box;
+	font-family: Lato;
+	font-weight: lighter;
+	margin: 0;
+    outline: none;1px solid red !important;
+	padding: 0;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+div {
+	border-image-width: 0px;
+	margin: 0;
+	border: 0;
+	display: inline-block;
+	overflow: auto;
+	padding: 0;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+ 
+img{
+	display: inline;
+}
+
+.row{
+	width: 100%;
+}
+
+.col-1{
+	width: 8.33%
+}
+.col-2{
+	width: 16.66%
+}
+.col-3{
+	width: 25%
+}
+.col-4{
+	min-width: 200px;
+	width: 33%;
+}
+.col-5{
+	width: 41.6%
+}
+
+.col-6{
+	width: 50%;
+}
+
+.col-7{
+	width: 50%;
+}
+
+.col-8{
+	min-width: 150px;
+	width: 66%;
+}
+
+.col-9{
+	width: 74%
+}
+
+
+.col-10{
+	width: 83.33%
+}
+
+.col-12{
+	width: 100%;
+}
+
+
+
+@media screen and (max-width: 600px){
+	body{
+		font-size: .65em;
+	}
+	
+	.app-screenshot-spacer{
+		display: none;
+	}
+	
+	.app-screenshot-center{
+		text-align: left;
+	}
+	
+	.app-screenshot-right{
+		text-align: left;
+	}
+}
+
+@media screen and (max-width:400px){
+	body{
+		font-size: .35em;
+	}
+}
+
+.title-area{
+	min-width: 250px;
+	min-height: 100px;
+	overflow: hidden;
+	padding-right: 8%;
+	text-align: right;
+	vertical-align: top;
+	width: 100%;
+}
+.title-name{
+	color: #747704;
+	font-size: 3em;
+	font-weight: 100;
+}
+
+
+.title-subtext{
+	color: #747704;
+	font-size: 1.5em;
+}
+
+.splitter{
+	border-bottom: 4px solid #BCBBBB;
+	display: block;
+	width: 100%;
+}
+
+.main-screenshot{
+	display: block;
+	height: 400px;
+	max-height: 400px;
+	text-align: center;
+	width: 600px;
+}
+
+.stretch-image{
+	height: 99%;
+	width: 100%;
+}
+
+.break{
+	display: block;
+}
+
+
+
+.top-image-div{
+	height: 100px;	
+	min-width: 20px;
+	overflow: hidden;
+	position: absolute;
+	text-align: left;
+}
+
+.top-image{
+	height: 100%;
+	left: 0px;
+	overflow: none;	
+	width: 100%;
+}
+
+.main-screenshot{
+	width:100% !important;
+}
+
+.app-heading{
+	color: #BCBBBB;
+	font-size: 1.65em;
+	min-height: 20px;
+	margin-left: 5%;
+	overflow: hidden;
+	text-align: left;
+	vertical-align: bottom;
+}
+
+
+.app-screenshot-center{
+	width: 100%;
+}
+
+.app-screenshot-right{
+	width: 100%;
+}
+
+.app-screenshot-left{
+	text-align: left;
+	width: 100%;
+}
+
+.app-screenshot{
+	width: 100%;
+}
+
+.app-name{
+	color: #747704;
+	font-size:1.5em;
+	font-weight:lighter;
+	text-align:center;
+	width:100%;
+}
+
+.group-content{
+	max-width:1200px;
+	text-align:left;
+}
