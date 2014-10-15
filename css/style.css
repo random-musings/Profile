@@ -1,0 +1,114 @@
+*{
+	background-color:black;
+	color:white;
+	font-family:Lato;
+	font-weight:300;
+}
+
+body{
+background-color:black;
+}
+
+a {
+    cursor: pointer;
+	color:#D0A033;
+}
+
+a:hover {
+    background-color: black;
+	color:white;
+} 
+
+a:visited{
+	color:#D0A033;
+}
+
+.thin-font
+{
+	font-weight:200;
+}
+.break
+{
+	display:block;
+}
+
+.main-subtitle
+{
+	color:#D0A033;
+	font-weight:900;
+	font-size:1.2em;
+}
+
+.content-font
+{
+	font-size:1.3em;
+}
+
+.featured-title
+{
+	color:#D0A033;
+	font-weight:900;
+	font-size:2em;
+}
+
+
+*{
+	background-color: black;
+	color: white;
+	font-family: Lato;
+	font-weight: 300;
+}
+
+body{
+background-color:black;
+}
+
+a {
+    cursor: pointer;
+	color: #D0A033;
+}
+
+a:hover {
+    background-color: black;
+	color: white;
+} 
+
+a:visited{
+	color: #D0A033;
+}
+
+.thin-font
+{
+	font-weight: 200;
+}
+.break
+{
+	display: block;
+}
+
+.main-subtitle
+{
+	color: #D0A033;
+	font-weight: 900;
+	font-size: 1.2em;
+}
+
+.content-font
+{
+	font-size: 1.3em;
+}
+
+.featured-title
+{
+	color: #D0A033;
+	font-weight: 900;
+	font-size: 2em;
+}
+
+
+@media screen and (max-width: 600px)
+{
+	.content-font{
+		font-size: 1em;
+	}
+}
