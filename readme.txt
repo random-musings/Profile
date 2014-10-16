@@ -30,7 +30,7 @@ specifically the grid system, responsive images and modal pop up boxes.
 
 What has been completed:
 
-THe corner udacity logo has been replaced by a custom graphics.
+The corner udacity logo has been replaced by a custom graphics.
 the horizontal rule has been replaced by a star cloud.
 the featured work section contains links to my git repositories 
 clicking on the images in the featured work section will pop up a modal dialog box
