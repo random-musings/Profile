@@ -6,16 +6,16 @@
 }
 
 body{
-background-color:black;
+	background-color:black;
 }
 
 a {
-    cursor: pointer;
+  cursor: pointer;
 	color:#D0A033;
 }
 
 a:hover {
-    background-color: black;
+  background-color: black;
 	color:white;
 } 
 
@@ -27,6 +27,7 @@ a:visited{
 {
 	font-weight:200;
 }
+
 .break
 {
 	display:block;
@@ -50,7 +51,6 @@ a:visited{
 	font-weight:900;
 	font-size:2em;
 }
-
 
 *{
 	background-color: black;
@@ -81,6 +81,7 @@ a:visited{
 {
 	font-weight: 200;
 }
+
 .break
 {
 	display: block;
@@ -105,7 +106,6 @@ a:visited{
 	font-weight: 900;
 	font-size: 2em;
 }
-
 
 @media screen and (max-width: 600px)
 {
